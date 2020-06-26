@@ -23,7 +23,6 @@ $(function () {
                 survey_questions: JSON.stringify(questions)
             },
             success: function (result) {
-                console.log(result);
                 window.location.href = `/surveys/${result.id}/take`;
             }
         });
