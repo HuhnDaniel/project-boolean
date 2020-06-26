@@ -53,12 +53,10 @@ surveyRoutes
     .route('/surveys')
     // save survey title from creator
     .post(async (req, res) => {
-        console.log(req);
         const dbsurvey = await Surveys.create({
             survey_title: req.body.survey_title,
             UserId: req.user.id
         });
-        console.log(dbsurvey);
         const results = await Survey_Questions.create({
             survey_questions: req.body.survey_questions,
             SurveyId: dbsurvey.id

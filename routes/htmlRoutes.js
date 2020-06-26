@@ -32,7 +32,6 @@ htmlRoutes.get('/surveys', isAuthenticated, async (req, res) => {
       UserId: req.user.id
     }
   });
-  console.log(surveys)
   res.render('surveys', {
     Surveys: surveys
   });
@@ -98,7 +97,6 @@ htmlRoutes.get('/surveys/:id/results', async (req, res) => {
     ]
   })
 
-  console.log("survey results:", surveyAnswers[0].dataValues);
   const questions = JSON.parse(surveyQuestions.survey_questions);
 
   const data = {
@@ -115,7 +113,6 @@ htmlRoutes.get('/surveys/:id/results', async (req, res) => {
 
     })
   }
-  console.log(data);
   res.render('surveyResults', {
     surveyResults: data
   });

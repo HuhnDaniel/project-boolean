@@ -22,7 +22,6 @@ const handleDeleteBtnClick = function () {
     const idToDelete = $(this).attr('data-surveyid');
     API.deleteExample(idToDelete).then(function () {
         location.reload();
-        console.log(idToDelete);
     });
 };
 

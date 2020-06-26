@@ -1,5 +1,4 @@
 $(function () {
-    console.log("survey page");
 
     $(".survey-url").text(document.URL);
     $("#takeSurveyBtn").on("click", submitSurvey);
@@ -11,7 +10,6 @@ $(function () {
 
         for (let index = 0; index < 5; index++) {
             const answer = $(`input[id="true${index}"]:checked`).val();
-            console.log(answer);
             (answer) ? answers.push(true) : answers.push(false);
         };
         $.ajax({
@@ -26,7 +24,6 @@ $(function () {
                 question5: answers[4],
             },
             success: function (result) {
-                console.log(result);
                 window.location.href = `/surveys/${surveyId}/results`;
             }
         });
