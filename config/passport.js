@@ -43,10 +43,6 @@ passport.serializeUser((user, cb) => {
     cb(null, user);
 });
 
-passport.deserializeUser((obj, cb) => {
-    cb(null, obj);
-});
-
 // Exporting our configured passport
 module.exports = passport;
 

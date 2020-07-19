@@ -1,13 +1,5 @@
 const Router = require('express').Router;
-const {
-    Surveys, sequelize
-} = require("../../models");
-const {
-    Survey_Questions
-} = require("../../models");
-const {
-    Survey_Answers
-} = require("../../models");
+const { Surveys, sequelize, Survey_Questions, Survey_Answers } = require("../../models");
 
 const surveyRoutes = Router();
 surveyRoutes

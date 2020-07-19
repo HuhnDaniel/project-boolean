@@ -2,11 +2,8 @@ const Router = require('express').Router;
 // Requiring our models and passport as we've configured it
 const db = require("../models");
 const passport = require("../config/passport");
-const exampleRoutes = require('./examples');
 
 const apiRoutes = Router();
-
-apiRoutes.use('/examples', exampleRoutes);
 
 // Using the passport.authenticate middleware with our local strategy.
 // If the user has valid login credentials, send them to the members page.
