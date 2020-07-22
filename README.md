@@ -1,5 +1,5 @@
 # Project Boolean
-![GitHub repo size](https://img.shields.io/github/repo-size/damianjuan/project2) ![GitHub contributors](https://img.shields.io/github/contributors/damianjuan/project2) ![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)  
+![GitHub repo size](https://img.shields.io/github/repo-size/HuhnDaniel/project-boolean) ![GitHub contributors](https://img.shields.io/github/contributors/HuhnDaniel/project-boolean) ![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)  
 This is a web application that allows users to create an account, and use that account to create and answer surveys, as well as producing links to send surveys to others.
 ## Table of Contents
 - [Installation and Running](#installation-and-running)
@@ -21,6 +21,7 @@ npm start
 - HTML, CSS, and JavaScript
 - Node https://nodejs.org/ and npm packages
 - Bootstrap https://getbootstrap.com/ and JQuery https://jquery.com/
+- MySQL https://www.mysql.com/
 - Heroku https://www.heroku.com/ and JawsDB https://www.jawsdb.com/
 ## Usage
 To be used by users who want to create or take surveys.  Sign up with an email and password, then create or take surveys. Surveys will have a URL at the end of each survey which can be used by others to take the same survey.
