@@ -2,12 +2,15 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/HuhnDaniel/project-boolean) ![GitHub contributors](https://img.shields.io/github/contributors/HuhnDaniel/project-boolean) ![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)  
 This is a web application that allows users to create an account, and use that account to create and answer surveys, as well as producing links to send surveys to others.
 ## Table of Contents
+- [Deployed Application](#deployed-application)
 - [Installation and Running](#installation-and-running)
 - [Technologies](#technologies)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [Authors](#authors)
+## Deployed Application
+Deployed at https://project-boolean.herokuapp.com
 ## Installation and Running
 To install necessary dependencies, run the following command in the root folder of this application
 ```
