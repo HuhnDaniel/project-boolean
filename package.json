@@ -1,8 +1,12 @@
 {
-  "name": "node-handlebars-boilerplate",
+  "name": "project-boolean",
   "version": "1.0.0",
   "description": "Project 2 Starter",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuhnDaniel/project-boolean"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
@@ -21,17 +25,16 @@
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
     "bcryptjs": "^2.4.3",
-    "compression": "^1.7.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "express-session": "^1.16.1",
-    "lodash": ">=4.17.19",
     "morgan": "^1.10.0",
     "mysql2": "^2.1.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "sequelize": "^4.44.4"
+    "sequelize": "^4.44.4",
+    "typescript": "^4.0.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
