@@ -34,7 +34,7 @@ $(document).ready(function () {
                 // If there's an error, log the error
             })
             .catch(err => {
-                console.log(err);
+                console.error(err);
             });
     }
 });

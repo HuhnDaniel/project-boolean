@@ -7,7 +7,7 @@ const {
   sequelize
 } = require('../models');
 
-const htmlRoutes = Router();
+const htmlRoutes = new Router();
 
 htmlRoutes.get('/', async (req, res) => {
   // console.log(req.user) can use req.user to pull matching surveys from db;
@@ -116,6 +116,11 @@ htmlRoutes.get('/surveys/:id/results', async (req, res) => {
   res.render('surveyResults', {
     surveyResults: data
   });
+});
+
+htmlRoutes.get('/logout', function (req, res) {
+  req.logout();
+  res.redirect('/');
 });
 
 htmlRoutes.get('/logout', function (req, res) {

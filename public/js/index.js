@@ -1,5 +1,9 @@
 // Get references to page elements
 const $ = window.$;
+const $exampleText = $('#example-text');
+const $exampleDescription = $('#example-description');
+const $submitBtn = $('#submit');
+const $exampleList = $('#example-list');
 const $deleteBtn = $('.deleteBtn');
 
 // The API object contains methods for each kind of request we'll make
